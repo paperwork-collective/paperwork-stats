@@ -7,6 +7,9 @@ downloads for a day are the difference between two snapshots. This keeps:
 
   data/nuget/history.json  every snapshot taken - one per date (a re-run on the
                            same date replaces that day's snapshot)
+  data/nuget/history.csv   the total downloads on each date - one row per date,
+                           a column per package and one for them all, for a
+                           spreadsheet or a CSV feed
   data/nuget/latest.json   the latest snapshot worked out for a report - totals,
                            increases (since the previous snapshot, 7 and 30 days),
                            downloads per day and the version breakdown, as arrays
@@ -15,6 +18,8 @@ downloads for a day are the difference between two snapshots. This keeps:
 Standard library only. Run from the repo root: python3 collectors/nuget.py
 """
 
+import csv
+import io
 import json
 import os
 import sys
@@ -35,6 +40,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data", "nuget")
 HISTORY = os.path.join(DATA, "history.json")
 LATEST = os.path.join(DATA, "latest.json")
+HISTORY_CSV = os.path.join(DATA, "history.csv")
 
 DAILY_DAYS = 30      # days of downloads-per-day in latest.json
 TOP_VERSIONS = 10    # versions listed per package in latest.json
@@ -74,6 +80,18 @@ def save(path, value):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(value, f, indent=2, ensure_ascii=False)
         f.write("\n")
+
+
+def build_csv(snapshots):
+    """Total downloads per date: date, one column per package, then all of them."""
+    ids = [p["id"] for p in PACKAGES]
+    out = io.StringIO()
+    writer = csv.writer(out, lineterminator="\n")
+    writer.writerow(["date"] + ids + ["all"])
+    for s in snapshots:
+        totals = [s["packages"][i]["total"] if i in s["packages"] else "" for i in ids]
+        writer.writerow([s["date"]] + totals + [sum(t for t in totals if t != "")])
+    return out.getvalue()
 
 
 def snapshot_on_or_before(snapshots, day):
@@ -195,6 +213,8 @@ def main():
 
     save(HISTORY, history)
     save(LATEST, build_latest(history["snapshots"], taken_at))
+    with open(HISTORY_CSV, "w", encoding="utf-8", newline="") as f:
+        f.write(build_csv(history["snapshots"]))
     print(f"Saved the snapshot for {snapshot['date']} ({len(history['snapshots'])} in all).")
 
 

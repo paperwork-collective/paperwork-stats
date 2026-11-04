@@ -19,6 +19,7 @@ NuGet only publishes running totals, and updates them about once a day, so downl
 ### The data
 
 - [`data/nuget/history.json`](data/nuget/history.json) - every snapshot: the total and per-version totals for each package, one snapshot per date.
+- [`data/nuget/history.csv`](data/nuget/history.csv) - the total downloads on each date: a `date` column, one column per package, and `all`. Built from `history.json` on every run.
 - [`data/nuget/latest.json`](data/nuget/latest.json) - the latest snapshot, already worked out for a report. For a template, load it from
   `https://raw.githubusercontent.com/paperwork-collective/paperwork-stats/main/data/nuget/latest.json`
 
