@@ -1,0 +1,41 @@
+name: NuGet downloads
+
+# A snapshot of the NuGet download totals once a day, committed to data/nuget/.
+# Run it by hand from the Actions tab (Run workflow) at any time - a second run
+# on the same date replaces that day's snapshot.
+on:
+  schedule:
+    - cron: "17 6 * * *"   # 06:17 UTC daily (off the hour, when GitHub is less busy)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nuget-stats
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Take the snapshot
+        run: python3 collectors/nuget.py
+
+      - name: Commit the data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/nuget
+          if git diff --cached --quiet; then
+            echo "No change to commit."
+          else
+            git commit -m "NuGet downloads $(date -u +%Y-%m-%d)"
+            git push
+          fi
