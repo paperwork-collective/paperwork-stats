@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-12",
-  "takenAt": "2026-11-12T15:19:30Z",
-  "previousDate": "2026-11-11",
+  "date": "2026-11-13",
+  "takenAt": "2026-11-13T14:38:22Z",
+  "previousDate": "2026-11-12",
   "trackingStarted": "2026-11-04",
-  "snapshotCount": 9,
+  "snapshotCount": 10,
   "totals": {
     "downloads": 523446,
-    "sincePrevious": 204,
-    "last7Days": 5447,
+    "sincePrevious": 0,
+    "last7Days": 4352,
     "last30Days": null,
     "sinceTrackingStarted": 6966
   },
@@ -15,12 +15,12 @@
     {
       "name": "Scryber",
       "downloads": 519003,
-      "sincePrevious": 155
+      "sincePrevious": 0
     },
     {
       "name": "Paperwork",
       "downloads": 4443,
-      "sincePrevious": 49
+      "sincePrevious": 0
     }
   ],
   "packages": [
@@ -33,8 +33,8 @@
       "latestVersionDownloads": 0,
       "versionCount": 114,
       "total": 428451,
-      "sincePrevious": 147,
-      "last7Days": 4115,
+      "sincePrevious": 0,
+      "last7Days": 3156,
       "last30Days": null,
       "sinceTrackingStarted": 5236,
       "daily": [
@@ -69,83 +69,87 @@
         {
           "date": "2026-11-12",
           "downloads": 147
+        },
+        {
+          "date": "2026-11-13",
+          "downloads": 0
         }
       ],
       "versions": [
         {
-          "version": "9.5.0",
-          "downloads": 21332,
-          "increase": 35,
-          "share": 5.0,
-          "isLatest": false
-        },
-        {
-          "version": "9.2.0.3",
-          "downloads": 25189,
-          "increase": 30,
-          "share": 5.9,
+          "version": "5.0.7",
+          "downloads": 114054,
+          "increase": 0,
+          "share": 26.6,
           "isLatest": false
         },
         {
           "version": "6.0.4-beta",
           "downloads": 57523,
-          "increase": 29,
+          "increase": 0,
           "share": 13.4,
           "isLatest": false
         },
         {
-          "version": "9.3.1",
-          "downloads": 2204,
-          "increase": 10,
-          "share": 0.5,
+          "version": "6.0.1-beta",
+          "downloads": 28524,
+          "increase": 0,
+          "share": 6.7,
           "isLatest": false
         },
         {
-          "version": "5.0.7",
-          "downloads": 114054,
-          "increase": 5,
-          "share": 26.6,
-          "isLatest": false
-        },
-        {
-          "version": "9.8.2",
-          "downloads": 224,
-          "increase": 5,
-          "share": 0.1,
-          "isLatest": false
-        },
-        {
-          "version": "9.9.0",
-          "downloads": 153,
-          "increase": 5,
-          "share": 0.0,
+          "version": "9.2.0.3",
+          "downloads": 25189,
+          "increase": 0,
+          "share": 5.9,
           "isLatest": false
         },
         {
           "version": "5.1.0.2-beta",
           "downloads": 22863,
-          "increase": 4,
+          "increase": 0,
           "share": 5.3,
           "isLatest": false
         },
         {
-          "version": "9.7.4.4",
-          "downloads": 3359,
-          "increase": 4,
-          "share": 0.8,
+          "version": "9.5.0",
+          "downloads": 21332,
+          "increase": 0,
+          "share": 5.0,
           "isLatest": false
         },
         {
-          "version": "9.7.5",
-          "downloads": 1367,
-          "increase": 4,
-          "share": 0.3,
+          "version": "6.0.0.14-beta",
+          "downloads": 19114,
+          "increase": 0,
+          "share": 4.5,
+          "isLatest": false
+        },
+        {
+          "version": "6.0.3.2-beta",
+          "downloads": 15931,
+          "increase": 0,
+          "share": 3.7,
+          "isLatest": false
+        },
+        {
+          "version": "8.0.0.2-beta",
+          "downloads": 5894,
+          "increase": 0,
+          "share": 1.4,
+          "isLatest": false
+        },
+        {
+          "version": "6.0.2-alpha",
+          "downloads": 5523,
+          "increase": 0,
+          "share": 1.3,
           "isLatest": false
         },
         {
           "version": "9.9.1",
           "downloads": 0,
-          "increase": null,
+          "increase": 0,
           "share": 0.0,
           "isLatest": true
         }
@@ -160,8 +164,8 @@
       "latestVersionDownloads": 0,
       "versionCount": 73,
       "total": 90552,
-      "sincePrevious": 8,
-      "last7Days": 576,
+      "sincePrevious": 0,
+      "last7Days": 508,
       "last30Days": null,
       "sinceTrackingStarted": 685,
       "daily": [
@@ -196,42 +200,18 @@
         {
           "date": "2026-11-12",
           "downloads": 8
+        },
+        {
+          "date": "2026-11-13",
+          "downloads": 0
         }
       ],
       "versions": [
         {
           "version": "6.0.1-beta",
           "downloads": 29683,
-          "increase": 2,
+          "increase": 0,
           "share": 32.8,
-          "isLatest": false
-        },
-        {
-          "version": "1.0.0.25",
-          "downloads": 910,
-          "increase": 2,
-          "share": 1.0,
-          "isLatest": false
-        },
-        {
-          "version": "9.6.0.2-beta",
-          "downloads": 137,
-          "increase": 2,
-          "share": 0.2,
-          "isLatest": false
-        },
-        {
-          "version": "9.9.0",
-          "downloads": 87,
-          "increase": 1,
-          "share": 0.1,
-          "isLatest": false
-        },
-        {
-          "version": "9.8.0-beta.2",
-          "downloads": 60,
-          "increase": 1,
-          "share": 0.1,
           "isLatest": false
         },
         {
@@ -270,9 +250,37 @@
           "isLatest": false
         },
         {
+          "version": "9.5.0",
+          "downloads": 1029,
+          "increase": 0,
+          "share": 1.1,
+          "isLatest": false
+        },
+        {
+          "version": "8.0.0.1-beta",
+          "downloads": 1027,
+          "increase": 0,
+          "share": 1.1,
+          "isLatest": false
+        },
+        {
+          "version": "1.0.0.25",
+          "downloads": 910,
+          "increase": 0,
+          "share": 1.0,
+          "isLatest": false
+        },
+        {
+          "version": "1.0.0.24",
+          "downloads": 805,
+          "increase": 0,
+          "share": 0.9,
+          "isLatest": false
+        },
+        {
           "version": "9.9.1",
           "downloads": 0,
-          "increase": null,
+          "increase": 0,
           "share": 0.0,
           "isLatest": true
         }
@@ -287,8 +295,8 @@
       "latestVersionDownloads": 0,
       "versionCount": 18,
       "total": 2131,
-      "sincePrevious": 31,
-      "last7Days": 227,
+      "sincePrevious": 0,
+      "last7Days": 193,
       "last30Days": null,
       "sinceTrackingStarted": 405,
       "daily": [
@@ -323,51 +331,13 @@
         {
           "date": "2026-11-12",
           "downloads": 31
+        },
+        {
+          "date": "2026-11-13",
+          "downloads": 0
         }
       ],
       "versions": [
-        {
-          "version": "9.8.1",
-          "downloads": 96,
-          "increase": 10,
-          "share": 4.5,
-          "isLatest": false
-        },
-        {
-          "version": "9.8.2",
-          "downloads": 108,
-          "increase": 9,
-          "share": 5.1,
-          "isLatest": false
-        },
-        {
-          "version": "9.9.0",
-          "downloads": 79,
-          "increase": 9,
-          "share": 3.7,
-          "isLatest": false
-        },
-        {
-          "version": "9.7.5",
-          "downloads": 135,
-          "increase": 1,
-          "share": 6.3,
-          "isLatest": false
-        },
-        {
-          "version": "9.7.4.2",
-          "downloads": 133,
-          "increase": 1,
-          "share": 6.2,
-          "isLatest": false
-        },
-        {
-          "version": "9.7.4.5",
-          "downloads": 123,
-          "increase": 1,
-          "share": 5.8,
-          "isLatest": false
-        },
         {
           "version": "9.6.0.4",
           "downloads": 155,
@@ -397,9 +367,51 @@
           "isLatest": false
         },
         {
+          "version": "1.0.0",
+          "downloads": 136,
+          "increase": 0,
+          "share": 6.4,
+          "isLatest": false
+        },
+        {
+          "version": "9.7.5",
+          "downloads": 135,
+          "increase": 0,
+          "share": 6.3,
+          "isLatest": false
+        },
+        {
+          "version": "9.7.4.2",
+          "downloads": 133,
+          "increase": 0,
+          "share": 6.2,
+          "isLatest": false
+        },
+        {
+          "version": "9.6.0.1",
+          "downloads": 130,
+          "increase": 0,
+          "share": 6.1,
+          "isLatest": false
+        },
+        {
+          "version": "9.7.1",
+          "downloads": 130,
+          "increase": 0,
+          "share": 6.1,
+          "isLatest": false
+        },
+        {
+          "version": "9.6.0",
+          "downloads": 128,
+          "increase": 0,
+          "share": 6.0,
+          "isLatest": false
+        },
+        {
           "version": "9.9.1",
           "downloads": 0,
-          "increase": null,
+          "increase": 0,
           "share": 0.0,
           "isLatest": true
         }
@@ -414,8 +426,8 @@
       "latestVersionDownloads": 0,
       "versionCount": 10,
       "total": 902,
-      "sincePrevious": 4,
-      "last7Days": 199,
+      "sincePrevious": 0,
+      "last7Days": 189,
       "last30Days": null,
       "sinceTrackingStarted": 253,
       "daily": [
@@ -450,30 +462,13 @@
         {
           "date": "2026-11-12",
           "downloads": 4
+        },
+        {
+          "date": "2026-11-13",
+          "downloads": 0
         }
       ],
       "versions": [
-        {
-          "version": "9.9.0",
-          "downloads": 88,
-          "increase": 2,
-          "share": 9.8,
-          "isLatest": false
-        },
-        {
-          "version": "9.7.5",
-          "downloads": 108,
-          "increase": 1,
-          "share": 12.0,
-          "isLatest": false
-        },
-        {
-          "version": "9.8.2",
-          "downloads": 91,
-          "increase": 1,
-          "share": 10.1,
-          "isLatest": false
-        },
         {
           "version": "1.0.0",
           "downloads": 111,
@@ -486,6 +481,13 @@
           "downloads": 110,
           "increase": 0,
           "share": 12.2,
+          "isLatest": false
+        },
+        {
+          "version": "9.7.5",
+          "downloads": 108,
+          "increase": 0,
+          "share": 12.0,
           "isLatest": false
         },
         {
@@ -517,9 +519,23 @@
           "isLatest": false
         },
         {
+          "version": "9.8.2",
+          "downloads": 91,
+          "increase": 0,
+          "share": 10.1,
+          "isLatest": false
+        },
+        {
+          "version": "9.9.0",
+          "downloads": 88,
+          "increase": 0,
+          "share": 9.8,
+          "isLatest": false
+        },
+        {
           "version": "9.9.1",
           "downloads": 0,
-          "increase": null,
+          "increase": 0,
           "share": 0.0,
           "isLatest": true
         }
@@ -534,8 +550,8 @@
       "latestVersionDownloads": 0,
       "versionCount": 13,
       "total": 1410,
-      "sincePrevious": 14,
-      "last7Days": 330,
+      "sincePrevious": 0,
+      "last7Days": 306,
       "last30Days": null,
       "sinceTrackingStarted": 387,
       "daily": [
@@ -570,83 +586,87 @@
         {
           "date": "2026-11-12",
           "downloads": 14
+        },
+        {
+          "date": "2026-11-13",
+          "downloads": 0
         }
       ],
       "versions": [
         {
-          "version": "9.7.4.4",
-          "downloads": 117,
-          "increase": 2,
-          "share": 8.3,
-          "isLatest": false
-        },
-        {
-          "version": "9.9.0",
-          "downloads": 94,
-          "increase": 2,
-          "share": 6.7,
-          "isLatest": false
-        },
-        {
           "version": "1.2.0",
           "downloads": 190,
-          "increase": 1,
+          "increase": 0,
           "share": 13.5,
           "isLatest": false
         },
         {
           "version": "1.1.0",
           "downloads": 148,
-          "increase": 1,
+          "increase": 0,
           "share": 10.5,
           "isLatest": false
         },
         {
           "version": "1.0.0",
           "downloads": 129,
-          "increase": 1,
+          "increase": 0,
           "share": 9.1,
+          "isLatest": false
+        },
+        {
+          "version": "9.7.4.4",
+          "downloads": 117,
+          "increase": 0,
+          "share": 8.3,
           "isLatest": false
         },
         {
           "version": "9.7.5",
           "downloads": 116,
-          "increase": 1,
+          "increase": 0,
           "share": 8.2,
           "isLatest": false
         },
         {
           "version": "9.7.4.2",
           "downloads": 115,
-          "increase": 1,
+          "increase": 0,
           "share": 8.2,
           "isLatest": false
         },
         {
           "version": "9.7.4.5",
           "downloads": 113,
-          "increase": 1,
+          "increase": 0,
           "share": 8.0,
           "isLatest": false
         },
         {
           "version": "9.7.4.3",
           "downloads": 108,
-          "increase": 1,
+          "increase": 0,
           "share": 7.7,
           "isLatest": false
         },
         {
           "version": "9.8.2",
           "downloads": 94,
-          "increase": 1,
+          "increase": 0,
+          "share": 6.7,
+          "isLatest": false
+        },
+        {
+          "version": "9.9.0",
+          "downloads": 94,
+          "increase": 0,
           "share": 6.7,
           "isLatest": false
         },
         {
           "version": "9.9.1",
           "downloads": 0,
-          "increase": null,
+          "increase": 0,
           "share": 0.0,
           "isLatest": true
         }
