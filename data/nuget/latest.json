@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-13",
-  "takenAt": "2026-11-13T14:38:22Z",
-  "previousDate": "2026-11-12",
+  "date": "2026-11-14",
+  "takenAt": "2026-11-14T13:35:23Z",
+  "previousDate": "2026-11-13",
   "trackingStarted": "2026-11-04",
-  "snapshotCount": 10,
+  "snapshotCount": 11,
   "totals": {
     "downloads": 523446,
     "sincePrevious": 0,
-    "last7Days": 4352,
+    "last7Days": 3453,
     "last30Days": null,
     "sinceTrackingStarted": 6966
   },
@@ -34,7 +34,7 @@
       "versionCount": 114,
       "total": 428451,
       "sincePrevious": 0,
-      "last7Days": 3156,
+      "last7Days": 2401,
       "last30Days": null,
       "sinceTrackingStarted": 5236,
       "daily": [
@@ -72,6 +72,10 @@
         },
         {
           "date": "2026-11-13",
+          "downloads": 0
+        },
+        {
+          "date": "2026-11-14",
           "downloads": 0
         }
       ],
@@ -165,7 +169,7 @@
       "versionCount": 73,
       "total": 90552,
       "sincePrevious": 0,
-      "last7Days": 508,
+      "last7Days": 423,
       "last30Days": null,
       "sinceTrackingStarted": 685,
       "daily": [
@@ -203,6 +207,10 @@
         },
         {
           "date": "2026-11-13",
+          "downloads": 0
+        },
+        {
+          "date": "2026-11-14",
           "downloads": 0
         }
       ],
@@ -296,7 +304,7 @@
       "versionCount": 18,
       "total": 2131,
       "sincePrevious": 0,
-      "last7Days": 193,
+      "last7Days": 186,
       "last30Days": null,
       "sinceTrackingStarted": 405,
       "daily": [
@@ -334,6 +342,10 @@
         },
         {
           "date": "2026-11-13",
+          "downloads": 0
+        },
+        {
+          "date": "2026-11-14",
           "downloads": 0
         }
       ],
@@ -427,7 +439,7 @@
       "versionCount": 10,
       "total": 902,
       "sincePrevious": 0,
-      "last7Days": 189,
+      "last7Days": 185,
       "last30Days": null,
       "sinceTrackingStarted": 253,
       "daily": [
@@ -465,6 +477,10 @@
         },
         {
           "date": "2026-11-13",
+          "downloads": 0
+        },
+        {
+          "date": "2026-11-14",
           "downloads": 0
         }
       ],
@@ -551,7 +567,7 @@
       "versionCount": 13,
       "total": 1410,
       "sincePrevious": 0,
-      "last7Days": 306,
+      "last7Days": 258,
       "last30Days": null,
       "sinceTrackingStarted": 387,
       "daily": [
@@ -589,6 +605,10 @@
         },
         {
           "date": "2026-11-13",
+          "downloads": 0
+        },
+        {
+          "date": "2026-11-14",
           "downloads": 0
         }
       ],
