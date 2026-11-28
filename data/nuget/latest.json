@@ -1,26 +1,26 @@
 {
-  "date": "2026-11-27",
-  "takenAt": "2026-11-27T16:42:38Z",
-  "previousDate": "2026-11-26",
+  "date": "2026-11-28",
+  "takenAt": "2026-11-28T15:35:01Z",
+  "previousDate": "2026-11-27",
   "trackingStarted": "2026-11-04",
-  "snapshotCount": 24,
+  "snapshotCount": 25,
   "totals": {
-    "downloads": 536109,
-    "sincePrevious": 833,
-    "last7Days": 6166,
+    "downloads": 536909,
+    "sincePrevious": 800,
+    "last7Days": 5927,
     "last30Days": null,
-    "sinceTrackingStarted": 19629
+    "sinceTrackingStarted": 20429
   },
   "families": [
     {
       "name": "Scryber",
-      "downloads": 530643,
-      "sincePrevious": 769
+      "downloads": 531414,
+      "sincePrevious": 771
     },
     {
       "name": "Paperwork",
-      "downloads": 5466,
-      "sincePrevious": 64
+      "downloads": 5495,
+      "sincePrevious": 29
     }
   ],
   "packages": [
@@ -30,13 +30,13 @@
       "description": "The open-source generation engine",
       "nugetUrl": "https://www.nuget.org/packages/Scryber.Core",
       "latestVersion": "9.12.0-beta.1",
-      "latestVersionDownloads": 7,
+      "latestVersionDownloads": 57,
       "versionCount": 119,
-      "total": 438369,
-      "sincePrevious": 648,
-      "last7Days": 4737,
+      "total": 439034,
+      "sincePrevious": 665,
+      "last7Days": 4556,
       "last30Days": null,
-      "sinceTrackingStarted": 15154,
+      "sinceTrackingStarted": 15819,
       "daily": [
         {
           "date": "2026-11-05",
@@ -129,85 +129,82 @@
         {
           "date": "2026-11-27",
           "downloads": 648
+        },
+        {
+          "date": "2026-11-28",
+          "downloads": 665
         }
       ],
       "versions": [
         {
+          "version": "9.2.0.3",
+          "downloads": 27049,
+          "increase": 275,
+          "share": 6.2,
+          "isLatest": false
+        },
+        {
           "version": "9.5.0",
-          "downloads": 23597,
-          "increase": 144,
+          "downloads": 23696,
+          "increase": 99,
           "share": 5.4,
           "isLatest": false
         },
         {
-          "version": "9.2.0.3",
-          "downloads": 26774,
-          "increase": 137,
-          "share": 6.1,
-          "isLatest": false
+          "version": "9.12.0-beta.1",
+          "downloads": 57,
+          "increase": 50,
+          "share": 0.0,
+          "isLatest": true
         },
         {
           "version": "6.0.4-beta",
-          "downloads": 58665,
-          "increase": 70,
+          "downloads": 58706,
+          "increase": 41,
           "share": 13.4,
           "isLatest": false
         },
         {
-          "version": "8.0.0.2-beta",
-          "downloads": 6194,
-          "increase": 35,
-          "share": 1.4,
-          "isLatest": false
-        },
-        {
-          "version": "6.0.1-beta",
-          "downloads": 29014,
-          "increase": 26,
-          "share": 6.6,
-          "isLatest": false
-        },
-        {
           "version": "9.7.5",
-          "downloads": 2014,
-          "increase": 26,
+          "downloads": 2045,
+          "increase": 31,
           "share": 0.5,
           "isLatest": false
         },
         {
-          "version": "9.7.4.2",
-          "downloads": 1732,
+          "version": "9.11.0",
+          "downloads": 391,
+          "increase": 28,
+          "share": 0.1,
+          "isLatest": false
+        },
+        {
+          "version": "5.1.0.2-beta",
+          "downloads": 23045,
           "increase": 26,
-          "share": 0.4,
+          "share": 5.2,
           "isLatest": false
         },
         {
           "version": "5.0.7",
-          "downloads": 114535,
-          "increase": 20,
+          "downloads": 114554,
+          "increase": 19,
           "share": 26.1,
           "isLatest": false
         },
         {
           "version": "9.10.0",
-          "downloads": 308,
-          "increase": 19,
+          "downloads": 324,
+          "increase": 16,
           "share": 0.1,
           "isLatest": false
         },
         {
-          "version": "9.7.4.4",
-          "downloads": 3588,
-          "increase": 18,
-          "share": 0.8,
+          "version": "6.0.1-beta",
+          "downloads": 29027,
+          "increase": 13,
+          "share": 6.6,
           "isLatest": false
-        },
-        {
-          "version": "9.12.0-beta.1",
-          "downloads": 7,
-          "increase": null,
-          "share": 0.0,
-          "isLatest": true
         }
       ]
     },
@@ -217,13 +214,13 @@
       "description": "ASP.NET MVC integration for Scryber.Core",
       "nugetUrl": "https://www.nuget.org/packages/Scryber.Core.Mvc",
       "latestVersion": "9.12.0-beta.1",
-      "latestVersionDownloads": 6,
+      "latestVersionDownloads": 52,
       "versionCount": 78,
-      "total": 92274,
-      "sincePrevious": 121,
-      "last7Days": 902,
+      "total": 92380,
+      "sincePrevious": 106,
+      "last7Days": 865,
       "last30Days": null,
-      "sinceTrackingStarted": 2407,
+      "sinceTrackingStarted": 2513,
       "daily": [
         {
           "date": "2026-11-05",
@@ -316,85 +313,82 @@
         {
           "date": "2026-11-27",
           "downloads": 121
+        },
+        {
+          "date": "2026-11-28",
+          "downloads": 106
         }
       ],
       "versions": [
         {
+          "version": "9.12.0-beta.1",
+          "downloads": 52,
+          "increase": 46,
+          "share": 0.1,
+          "isLatest": true
+        },
+        {
           "version": "6.0.1-beta",
-          "downloads": 30267,
-          "increase": 49,
+          "downloads": 30295,
+          "increase": 28,
           "share": 32.8,
           "isLatest": false
         },
         {
-          "version": "9.11.0-beta.2",
-          "downloads": 65,
+          "version": "9.5.0",
+          "downloads": 1130,
+          "increase": 5,
+          "share": 1.2,
+          "isLatest": false
+        },
+        {
+          "version": "9.11.0",
+          "downloads": 53,
           "increase": 4,
           "share": 0.1,
           "isLatest": false
         },
         {
-          "version": "9.5.0",
-          "downloads": 1125,
-          "increase": 3,
-          "share": 1.2,
+          "version": "6.0.0.14-beta",
+          "downloads": 9032,
+          "increase": 2,
+          "share": 9.8,
           "isLatest": false
         },
         {
-          "version": "9.7.4.2",
-          "downloads": 185,
-          "increase": 3,
+          "version": "9.2.0",
+          "downloads": 674,
+          "increase": 2,
+          "share": 0.7,
+          "isLatest": false
+        },
+        {
+          "version": "9.8.0-beta.4",
+          "downloads": 69,
+          "increase": 2,
+          "share": 0.1,
+          "isLatest": false
+        },
+        {
+          "version": "9.7.4",
+          "downloads": 193,
+          "increase": 1,
           "share": 0.2,
           "isLatest": false
         },
         {
           "version": "9.8.2",
-          "downloads": 125,
-          "increase": 3,
+          "downloads": 126,
+          "increase": 1,
           "share": 0.1,
           "isLatest": false
         },
         {
-          "version": "9.10.0",
-          "downloads": 108,
-          "increase": 3,
+          "version": "9.8.0",
+          "downloads": 106,
+          "increase": 1,
           "share": 0.1,
           "isLatest": false
-        },
-        {
-          "version": "9.8.0-beta.10",
-          "downloads": 77,
-          "increase": 3,
-          "share": 0.1,
-          "isLatest": false
-        },
-        {
-          "version": "9.8.0-beta.7",
-          "downloads": 68,
-          "increase": 3,
-          "share": 0.1,
-          "isLatest": false
-        },
-        {
-          "version": "5.0.7",
-          "downloads": 24620,
-          "increase": 2,
-          "share": 26.7,
-          "isLatest": false
-        },
-        {
-          "version": "5.1.0-beta",
-          "downloads": 1491,
-          "increase": 2,
-          "share": 1.6,
-          "isLatest": false
-        },
-        {
-          "version": "9.12.0-beta.1",
-          "downloads": 6,
-          "increase": null,
-          "share": 0.0,
-          "isLatest": true
         }
       ]
     },
@@ -404,13 +398,13 @@
       "description": "Generate PDFs from Paperwork templates",
       "nugetUrl": "https://www.nuget.org/packages/Paperwork.Core",
       "latestVersion": "9.11.0",
-      "latestVersionDownloads": 91,
+      "latestVersionDownloads": 104,
       "versionCount": 20,
-      "total": 2544,
-      "sincePrevious": 26,
-      "last7Days": 231,
+      "total": 2564,
+      "sincePrevious": 20,
+      "last7Days": 207,
       "last30Days": null,
-      "sinceTrackingStarted": 818,
+      "sinceTrackingStarted": 838,
       "daily": [
         {
           "date": "2026-11-05",
@@ -503,77 +497,81 @@
         {
           "date": "2026-11-27",
           "downloads": 26
+        },
+        {
+          "date": "2026-11-28",
+          "downloads": 20
         }
       ],
       "versions": [
         {
           "version": "9.11.0",
-          "downloads": 91,
-          "increase": 5,
-          "share": 3.6,
+          "downloads": 104,
+          "increase": 13,
+          "share": 4.1,
           "isLatest": true
         },
         {
-          "version": "9.9.0",
-          "downloads": 117,
-          "increase": 3,
+          "version": "9.11.0-beta.1",
+          "downloads": 63,
+          "increase": 2,
+          "share": 2.5,
+          "isLatest": false
+        },
+        {
+          "version": "9.9.1",
+          "downloads": 131,
+          "increase": 1,
+          "share": 5.1,
+          "isLatest": false
+        },
+        {
+          "version": "9.8.0",
+          "downloads": 121,
+          "increase": 1,
+          "share": 4.7,
+          "isLatest": false
+        },
+        {
+          "version": "9.8.2",
+          "downloads": 118,
+          "increase": 1,
           "share": 4.6,
+          "isLatest": false
+        },
+        {
+          "version": "9.9.0",
+          "downloads": 118,
+          "increase": 1,
+          "share": 4.6,
+          "isLatest": false
+        },
+        {
+          "version": "9.8.1",
+          "downloads": 108,
+          "increase": 1,
+          "share": 4.2,
           "isLatest": false
         },
         {
           "version": "9.6.0.4",
           "downloads": 159,
-          "increase": 2,
+          "increase": 0,
           "share": 6.2,
+          "isLatest": false
+        },
+        {
+          "version": "1.2.0",
+          "downloads": 154,
+          "increase": 0,
+          "share": 6.0,
           "isLatest": false
         },
         {
           "version": "9.7.4.4",
           "downloads": 154,
-          "increase": 2,
-          "share": 6.1,
-          "isLatest": false
-        },
-        {
-          "version": "9.7.5",
-          "downloads": 142,
-          "increase": 2,
-          "share": 5.6,
-          "isLatest": false
-        },
-        {
-          "version": "9.8.1",
-          "downloads": 107,
-          "increase": 2,
-          "share": 4.2,
-          "isLatest": false
-        },
-        {
-          "version": "1.1.0",
-          "downloads": 144,
-          "increase": 1,
-          "share": 5.7,
-          "isLatest": false
-        },
-        {
-          "version": "1.0.0",
-          "downloads": 139,
-          "increase": 1,
-          "share": 5.5,
-          "isLatest": false
-        },
-        {
-          "version": "9.7.1",
-          "downloads": 133,
-          "increase": 1,
-          "share": 5.2,
-          "isLatest": false
-        },
-        {
-          "version": "9.6.0",
-          "downloads": 131,
-          "increase": 1,
-          "share": 5.1,
+          "increase": 0,
+          "share": 6.0,
           "isLatest": false
         }
       ]
@@ -584,13 +582,13 @@
       "description": "Configuration, assets, maps and auth for Paperwork.Core apps",
       "nugetUrl": "https://www.nuget.org/packages/Paperwork.Core.Extensions",
       "latestVersion": "9.11.0",
-      "latestVersionDownloads": 51,
+      "latestVersionDownloads": 53,
       "versionCount": 11,
-      "total": 1142,
-      "sincePrevious": 12,
-      "last7Days": 112,
+      "total": 1146,
+      "sincePrevious": 4,
+      "last7Days": 113,
       "last30Days": null,
-      "sinceTrackingStarted": 493,
+      "sinceTrackingStarted": 497,
       "daily": [
         {
           "date": "2026-11-05",
@@ -683,85 +681,82 @@
         {
           "date": "2026-11-27",
           "downloads": 12
+        },
+        {
+          "date": "2026-11-28",
+          "downloads": 4
         }
       ],
       "versions": [
         {
+          "version": "9.11.0",
+          "downloads": 53,
+          "increase": 2,
+          "share": 4.6,
+          "isLatest": true
+        },
+        {
           "version": "9.8.0",
-          "downloads": 106,
-          "increase": 3,
+          "downloads": 107,
+          "increase": 1,
           "share": 9.3,
+          "isLatest": false
+        },
+        {
+          "version": "9.8.2",
+          "downloads": 102,
+          "increase": 1,
+          "share": 8.9,
           "isLatest": false
         },
         {
           "version": "1.0.0",
           "downloads": 119,
-          "increase": 1,
+          "increase": 0,
           "share": 10.4,
           "isLatest": false
         },
         {
           "version": "9.7.4.5",
           "downloads": 117,
-          "increase": 1,
+          "increase": 0,
           "share": 10.2,
           "isLatest": false
         },
         {
           "version": "9.7.5",
           "downloads": 116,
-          "increase": 1,
-          "share": 10.2,
+          "increase": 0,
+          "share": 10.1,
           "isLatest": false
         },
         {
           "version": "1.0.1",
           "downloads": 108,
-          "increase": 1,
-          "share": 9.5,
+          "increase": 0,
+          "share": 9.4,
           "isLatest": false
         },
         {
           "version": "9.7.4.4",
           "downloads": 108,
-          "increase": 1,
-          "share": 9.5,
+          "increase": 0,
+          "share": 9.4,
           "isLatest": false
         },
         {
           "version": "9.9.1",
           "downloads": 107,
-          "increase": 1,
-          "share": 9.4,
+          "increase": 0,
+          "share": 9.3,
           "isLatest": false
         },
         {
           "version": "9.9.0",
           "downloads": 106,
-          "increase": 1,
-          "share": 9.3,
-          "isLatest": false
-        },
-        {
-          "version": "9.7.4.6",
-          "downloads": 103,
-          "increase": 1,
-          "share": 9.0,
-          "isLatest": false
-        },
-        {
-          "version": "9.8.2",
-          "downloads": 101,
-          "increase": 1,
-          "share": 8.8,
-          "isLatest": false
-        },
-        {
-          "version": "9.11.0",
-          "downloads": 51,
           "increase": 0,
-          "share": 4.5,
-          "isLatest": true
+          "share": 9.2,
+          "isLatest": false
         }
       ]
     },
@@ -771,13 +766,13 @@
       "description": "The paperwork command line tool",
       "nugetUrl": "https://www.nuget.org/packages/Paperwork.CLI",
       "latestVersion": "9.11.0",
-      "latestVersionDownloads": 59,
+      "latestVersionDownloads": 61,
       "versionCount": 15,
-      "total": 1780,
-      "sincePrevious": 26,
-      "last7Days": 184,
+      "total": 1785,
+      "sincePrevious": 5,
+      "last7Days": 186,
       "last30Days": null,
-      "sinceTrackingStarted": 757,
+      "sinceTrackingStarted": 762,
       "daily": [
         {
           "date": "2026-11-05",
@@ -870,76 +865,80 @@
         {
           "date": "2026-11-27",
           "downloads": 26
+        },
+        {
+          "date": "2026-11-28",
+          "downloads": 5
         }
       ],
       "versions": [
         {
-          "version": "9.9.0",
-          "downloads": 110,
-          "increase": 5,
-          "share": 6.2,
-          "isLatest": false
-        },
-        {
-          "version": "9.9.1.1",
-          "downloads": 109,
-          "increase": 4,
-          "share": 6.1,
-          "isLatest": false
-        },
-        {
-          "version": "9.9.1",
-          "downloads": 106,
-          "increase": 3,
-          "share": 6.0,
-          "isLatest": false
+          "version": "9.11.0",
+          "downloads": 61,
+          "increase": 2,
+          "share": 3.4,
+          "isLatest": true
         },
         {
           "version": "9.8.2.1",
+          "downloads": 105,
+          "increase": 1,
+          "share": 5.9,
+          "isLatest": false
+        },
+        {
+          "version": "9.8.0",
           "downloads": 104,
-          "increase": 3,
+          "increase": 1,
           "share": 5.8,
           "isLatest": false
         },
         {
-          "version": "9.11.0",
-          "downloads": 59,
-          "increase": 2,
-          "share": 3.3,
-          "isLatest": true
+          "version": "9.8.2",
+          "downloads": 104,
+          "increase": 1,
+          "share": 5.8,
+          "isLatest": false
+        },
+        {
+          "version": "1.2.0",
+          "downloads": 197,
+          "increase": 0,
+          "share": 11.0,
+          "isLatest": false
         },
         {
           "version": "1.1.0",
           "downloads": 151,
-          "increase": 1,
+          "increase": 0,
           "share": 8.5,
           "isLatest": false
         },
         {
           "version": "1.0.0",
           "downloads": 133,
-          "increase": 1,
+          "increase": 0,
           "share": 7.5,
           "isLatest": false
         },
         {
           "version": "9.7.4.4",
           "downloads": 125,
-          "increase": 1,
+          "increase": 0,
           "share": 7.0,
           "isLatest": false
         },
         {
           "version": "9.7.4.2",
           "downloads": 122,
-          "increase": 1,
-          "share": 6.9,
+          "increase": 0,
+          "share": 6.8,
           "isLatest": false
         },
         {
           "version": "9.7.4.5",
           "downloads": 121,
-          "increase": 1,
+          "increase": 0,
           "share": 6.8,
           "isLatest": false
         }
